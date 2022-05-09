@@ -33,6 +33,10 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -41,4 +45,17 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+.floatCancel::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.blind {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
 }
