@@ -1,0 +1,22 @@
+.sp {
+    background-repeat: no-repeat;
+    background-image: url('/images/sp.png');
+}
+.sp_main {
+    background-image: url('/images/sp_main.png');
+    background-repeat: no-repeat;
+}
+.sp_service {
+    background-image: url('/images/sp_service.png');
+    background-repeat: no-repeat;
+}
+.nav_next {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    width: 59px;
+    height: 40px;
+    background-position: 0 -30px;
+    cursor: pointer;
+}
