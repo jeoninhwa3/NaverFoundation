@@ -5,7 +5,28 @@
 .section {
     height: 100vh;
 }
-.main_section .swiper_slide {
+.main_section {
+    position: absolute;
+}
+.main_section .swiper-slide {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_section .swiper-slide:nth-child(1) {
+    background-image: url('/images/bg_main01.jpg');
+}
+.main_section .swiper-slide:nth-child(2) {
+    background-image: url('/images/bg_main02.jpg');
+}
+.main_section .swiper-slide:nth-child(3) {
+    background-image: url('/images/bg_main03.jpg');
+}
+/* .main_section .swiper-slide {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +35,13 @@
     background-size: cover;
     height: 100vh;
 }
-.main_section .swiper_slide:nth-child(1) {
+.main_section .swiper-slide:nth-child(1) {
     background-image: url('/images/bg_main01.jpg');
 }
-.main_section .swiper_slide:nth-child(2) {
+.main_section .swiper-slide:nth-child(2) {
     background-image: url('/images/bg_main02.jpg');
 }
-.main_section .swiper_slide:nth-child(3) {
+.main_section .swiper-slide:nth-child(3) {
     background-image: url('/images/bg_main03.jpg');
 }
 .main_section .main_text p {
@@ -29,13 +50,13 @@
     margin: 0 auto;
     line-height: 9000px;
 }
-.main_section .swiper_slide:nth-child(1) p {
+.main_section .swiper-slide:nth-child(1) p {
     background-position: 50% -200px;
 }
-.main_section .swiper_slide:nth-child(2) p {
+.main_section .swiper-slide:nth-child(2) p {
     background-position: 50% -400%;
 }
-.main_section .swiper_slide:nth-child(3) p {
+.main_section .swiper-slide:nth-child(3) p {
     background-position: 50% 0;
 }
 .main_section .btn {
@@ -44,8 +65,6 @@
     transform: translateY(-50%);
     width: 60px;
     height: 70px;
-    background-image: url('/images/sp.png');
-    background-repeat: no-repeat;
     cursor: pointer;
 }
 .main_section .btn_prev {
@@ -55,7 +74,7 @@
 .main_section .btn_next {
     right: 30px;
     background-position: -65px -220px;
-}
+} */
 /* @service_section */
 .service_section .section_con,
 .about_section .section_con {

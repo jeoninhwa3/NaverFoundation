@@ -38,17 +38,24 @@ header .gnb .depth1:not(:last-child) {
 header .gnb .depth1 > a {
     display: block;
     position: relative;
+    border-top: 1px solid transparent;
     color: #00ff00;
     font-size: 14px;
     z-index: 10;
 }
+header .gnb .depth1:hover > a {
+    border-top: 1px solid #00ff00;
+    box-sizing: border-box;
+}
 header .gnb .depth1:hover .depth2_wrap {
-    top: 0;
+    top: 0px;
+    left: 0px;
 }
 header .gnb .depth2_wrap {
     position: absolute;
-    top: -282px;
-    left: 0;
+    top: -200px;
+    left: -100px;
+    transition: 0.4s;
 }
 header .gnb .depth2_wrap .depth2 {
     width: 282px;
