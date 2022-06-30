@@ -1,4 +1,5 @@
 .sp {
+    display: block;
     background-repeat: no-repeat;
     background-image: url('/images/sp.png');
 }
@@ -10,7 +11,11 @@
     background-image: url('/images/sp_service.png');
     background-repeat: no-repeat;
 }
-.nav_next {
+.sp_about {
+    background-image: url('/images/sp_about.png');
+    background-repeat: no-repeat;
+}
+.next_page {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -19,4 +24,27 @@
     height: 40px;
     background-position: 0 -30px;
     cursor: pointer;
+}
+.toggle {
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+    background-position: -110px -30px;
+}
+.motion_wrap {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 308px;
+    height: 483px;
+    margin-top: -284px;
+}
+.motion_wrap .motion {
+    display: block;
+    position: absolute;
+    top: -559px;
+    left: -357px;
+    width: 308px;
+    height: 483px;
+    transition: 0.3s;
 }

@@ -11,6 +11,7 @@ header {
     max-width: 1200px;
     height: 52px;
     margin: 0 auto;
+    z-index: 100;
 }
 header h1 {
     float: left;
@@ -24,19 +25,70 @@ header h1 a.sp {
 }
 header .gnb {
     float: right;
-    padding-top: 30px;
     margin-right: 112px;
 }
 header .gnb .depth1 {
+    position: relative;
     float: left;
+    padding: 25px 0 0 55px;
 }
 header .gnb .depth1:not(:last-child) {
     margin-right: 85px;
 }
-header .gnb .depth1 a {
+header .gnb .depth1 > a {
+    display: block;
+    position: relative;
     color: #00ff00;
     font-size: 14px;
+    z-index: 10;
 }
-header .gnb .depth2 {
-    display: none;
+header .gnb .depth1:hover .depth2_wrap {
+    top: 0;
+}
+header .gnb .depth2_wrap {
+    position: absolute;
+    top: -282px;
+    left: 0;
+}
+header .gnb .depth2_wrap .depth2 {
+    width: 282px;
+    height: 194px;
+    padding: 52px 0 0 66px;
+    background-position: -200px 0;
+    box-sizing: border-box;
+}
+header .gnb .depth2_wrap .depth2 li {
+    margin-top: 12px;
+}
+header .gnb .depth2_wrap .depth2 li:nth-child(1) {
+    margin-left: 15px;
+}
+header .gnb .depth2_wrap .depth2 li:nth-child(2) {
+    margin-left: 32px;
+}
+header .gnb .depth2_wrap .depth2 li:nth-child(3) {
+    margin-left: 51px;
+}
+header .gnb .depth2_wrap .depth2 li:nth-child(4) {
+    margin-left: 68px;
+}
+header .gnb .depth2_wrap .depth2 li a {
+    color: #fff;
+    font-size: 14px;
+}
+footer {
+    line-height: 50px;
+    background-color: #faf6f6;
+    font-size: 14px;
+    color: #737373;
+    font-weight: bold;
+    text-align: center;
+}
+footer p {
+    display: inline-block;
+    margin-right: 10px;
+}
+footer a:first-of-type {
+    display: inline-block;
+    margin-right: 10px;
 }
