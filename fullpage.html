@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <style>
+        .section {
+            height: 100vh;
+        }
+        .s2 ul::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .s2 ul li {
+            float: left;
+            width: calc(100% / 3);
+        }
+    </style>
+</head>
+<body>
+    <div id="full-page">
+        <div class="section s0">Some section0</div>
+        <div class="section s1">Some section1</div>
+        <div class="section s2">
+            <ul>
+                <li>안녕</li>
+                <li>하세요</li>
+                <li>HI</li>
+            </ul>
+        </div>
+        <div class="section s3">Some section3</div>
+    </div>
+    
+    
+    <script src="js/fullpage.min.js"></script>
+    <script>
+        new fullpage('#full-page', {
+            licensKey: '',
+            sectionColor: ['#ff0000', '#00ff00', '#0000ff', '#aaaaaa'],
+            navigation: true,
+            navigationTooltips: ['Home', 'About', 'Contact', 'Xtras'],
+            scrollingSpeed: 1000,
+        });
+    </script>
+</body>
+</html>
