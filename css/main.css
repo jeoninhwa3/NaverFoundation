@@ -23,14 +23,14 @@
 }
 .main_section .swiper-slide:nth-child(2),
 .main_section .swiper-slide:nth-child(5) {
-    background-image: url('images/bg_main01.jpg');
+    background-image: url('../images/bg_main01.jpg');
 }
 .main_section .swiper-slide:nth-child(3) {
-    background-image: url('images/bg_main02.jpg');
+    background-image: url('../images/bg_main02.jpg');
 }
 .main_section .swiper-slide:nth-child(1),
 .main_section .swiper-slide:nth-child(4){
-    background-image: url('images/bg_main03.jpg');
+    background-image: url('../images/bg_main03.jpg');
 }
 .main_section .swiper-slide p {
     width: 806px;
