@@ -113,22 +113,22 @@
     height: 100%;
 }
 .service_section .section_con:nth-child(1) {
-    background-image: url('images/bg_service01.jpg');
+    background-image: url('../images/bg_service01.jpg');
 }
 .service_section .section_con:nth-child(2) {
-    background-image: url('images/bg_service02.jpg');
+    background-image: url('../images/bg_service02.jpg');
 }
 .service_section .section_con:nth-child(3) {
-    background-image: url('images/bg_service03.jpg');
+    background-image: url('../images/bg_service03.jpg');
 }
 .service_section .section_con:nth-child(1):hover {
-    background-image: url('images/bg_service_hover01.jpg');
+    background-image: url('../images/bg_service_hover01.jpg');
 }
 .service_section .section_con:nth-child(2):hover {
-    background-image: url('images/bg_service_hover02.jpg');
+    background-image: url('../images/bg_service_hover02.jpg');
 }
 .service_section .section_con:nth-child(3):hover {
-    background-image: url('images/bg_service_hover03.jpg');
+    background-image: url('../images/bg_service_hover03.jpg');
 }
 .service_section .section_con:nth-child(1) .motion {
     background-position: -790px 0;
@@ -159,7 +159,7 @@
 /* @news_section */
 .news_section {
     width: 100%;
-    background-image: url('/images/bg_news_main.jpg');
+    background-image: url('../images/bg_news_main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -268,22 +268,22 @@
     height: calc(100% - 50px);
 }
 .about_section .section_con:nth-child(1) {
-    background-image: url('/images/bg_about01.jpg');
+    background-image: url('../images/bg_about01.jpg');
 }
 .about_section .section_con:nth-child(2) {
-    background-image: url('/images/bg_about02.jpg');
+    background-image: url('../images/bg_about02.jpg');
 }
 .about_section .section_con:nth-child(3) {
-    background-image: url('/images/bg_about03.jpg');
+    background-image: url('../images/bg_about03.jpg');
 }
 .about_section .section_con:nth-child(1):hover {
-    background-image: url('/images/bg_about0_hover01.jpg');
+    background-image: url('../images/bg_about0_hover01.jpg');
 }
 .about_section .section_con:nth-child(2):hover {
-    background-image: url('/images/bg_about0_hover02.jpg');
+    background-image: url('../images/bg_about0_hover02.jpg');
 }
 .about_section .section_con:nth-child(3):hover {
-    background-image: url('/images/bg_about0_hover03.jpg');
+    background-image: url('../images/bg_about0_hover03.jpg');
 }
 .about_section .section_con .motion {
     background-position: -620px 0;
