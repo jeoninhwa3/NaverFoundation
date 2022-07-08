@@ -1,18 +1,18 @@
 .sp {
     display: block;
     background-repeat: no-repeat;
-    background-image: url('/images/sp.png');
+    background-image: url('../images/sp.png');
 }
 .sp_main {
-    background-image: url('/images/sp_main.png');
+    background-image: url('../images/sp_main.png');
     background-repeat: no-repeat;
 }
 .sp_service {
-    background-image: url('/images/sp_service.png');
+    background-image: url('../images/sp_service.png');
     background-repeat: no-repeat;
 }
 .sp_about {
-    background-image: url('/images/sp_about.png');
+    background-image: url('../images/sp_about.png');
     background-repeat: no-repeat;
 }
 .next_page {
