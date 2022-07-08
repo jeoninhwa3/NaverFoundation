@@ -23,7 +23,7 @@
 		loop: true,
 		autoplay: true,
 		// initialSlide: 0,
-		// loopAdditionalSlides: 1,
+		// loopAdditionalSlides: 2,
       });
 
 	// news_section tabmenu
@@ -37,11 +37,3 @@
 			$("#" + tap).addClass("active");
 		});
 	};
-
-	// const tabMenuLi = document.querySelectorAll('tab_menu > li');
-	// function Tabmenu() {
-	// 	tabMenuLi.classList.remove('on');
-	// 	$(this).classList.add('on'); 
-	// }
-
-	// tabMenuLi.addEventListener('click', Tabmenu);

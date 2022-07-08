@@ -83,19 +83,3 @@ header .gnb .depth2_wrap .depth2 li a {
     color: #fff;
     font-size: 14px;
 }
-footer {
-    line-height: 50px;
-    background-color: #faf6f6;
-    font-size: 14px;
-    color: #737373;
-    font-weight: bold;
-    text-align: center;
-}
-footer p {
-    display: inline-block;
-    margin-right: 10px;
-}
-footer a:first-of-type {
-    display: inline-block;
-    margin-right: 10px;
-}
